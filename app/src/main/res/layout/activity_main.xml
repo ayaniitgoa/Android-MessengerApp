@@ -18,6 +18,7 @@
         android:layout_marginRight="32dp"
         android:background="#FFFFFF"
         android:ems="10"
+        android:fontFamily="sans-serif"
         android:hint="Username"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
