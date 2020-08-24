@@ -5,6 +5,7 @@
     "project_id": "android-messenger-b5f5b",
     "storage_bucket": "android-messenger-b5f5b.appspot.com"
   },
+
   "client": [
     {
       "client_info": {
@@ -37,4 +38,5 @@
     }
   ],
   "configuration_version": "1"
+
 }

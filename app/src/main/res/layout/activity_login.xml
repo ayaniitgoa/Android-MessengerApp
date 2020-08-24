@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFC107" >
+    android:background="#B0F8FF">
 
     <EditText
         android:id="@+id/email_edittext_login"
@@ -45,7 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/rounded_register_login_button"
         android:text="Login"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/password_edittext_login"
@@ -53,12 +53,14 @@
         app:layout_constraintTop_toBottomOf="@+id/password_edittext_login" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/login-top-heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:fontFamily="serif-monospace"
         android:text="LOGIN"
-        android:textSize="30sp"
+        android:textSize="45sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/email_edittext_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
